@@ -96,38 +96,220 @@ padding: 50px;
  margin-top: 430px;
  margin-left: -110px;
  }
-                              .vedio-500{
-                                border: 1px solid rgba(255, 255, 255, 0.193);
-                                width: 220px;
-                                height: 90px;
-                                border-radius: 12px;
-                                backdrop-filter: blur(20px);
-                                background: rgba(48, 48, 48, 0.569);
-                               position: absolute;
-                               top: 0px;
-                               margin-left: 210px;
-                               margin-top: 140px;
-                              }
-                              .vedio{
-                              font-size: 2.5rem;
-                              font-weight: 900;
-                              color: white;
-                              }
-                              .shared-span{
-                                font-size: 1rem;
-                              font-weight: 400;
-                              color: rgba(239, 237, 232, 0.65);
-                              }
+ #orenge-circle{
+  font-size: 2rem;
+   color: rgba(230, 83, 60); 
+   margin: 10px;
+ }
+.vedio-500{
+   border: 1px solid rgba(255, 255, 255, 0.193);
+   width: 220px;
+  height: 90px;
+ border-radius: 12px;
+ backdrop-filter: blur(20px);
+ background: rgba(48, 48, 48, 0.569);
+position: absolute;
+ top: 0px;
+ margin-left: 210px;
+ margin-top: 140px;
+  }
+  .vedio{
+ font-size: 2.5rem;
+ font-weight: 900;
+ color: white;
+ }
 .tutorial{
  font-size: 1.5rem;
  font-weight: 900;
   color: white;
  }
+ /* habits section start here */
+.habits-container{
+  width: 90%;
+  margin:100px auto;
+  text-align: center;
+}
+
+.habits-container p{
+  color: rgba(255, 255, 255, 0.5); 
+  font-size: 1rem;
+  font-weight: 400px;
+  margin-top: 15px;
+}
+.how-to-change{
+margin: 25px auto;
+width: 90%;
+display: flex;
+}
+.habits img{
+border-radius: 50%;
+justify-content: space-evenly;
+}
+.habits h4{
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+/* run extra start here */
+.run-extra{
+  width: 78%;
+  border-radius: 12px;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.262);
+  margin-bottom: 20px;
+}
+.run-img img{
+  border-radius: 10px;
+}
+/* bmi calculator text */
+.calculator-container{
+  padding:60px 300px;
+}
+/* tables heading*/
+.calculator-table{
+  background-color: rgba(128, 128, 128, 0.262);
+  display:flex;
+  justify-content: space-around;
+  height: 550px;
+
+}
+.bmi-heading{
+  color: white;
+  font-size: 2rem;
+  font-weight: 700px;
+  margin-top: 50px;
+}
+/* tables */
+table{
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+th{
+  color: white;
+  border: 1px solid grey ;
+  padding:10px;
+  width: 150px;
+}
+td{
+  color:darkgrey;
+  border: 1px solid grey ;
+  padding: 15px; 
+}
+.responsive-input{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+input[type=text],select{
+width: 280px;
+height: 35px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+border: none;
+color: rgba(128, 128, 128, 0.905);
+margin: 10px;
+align-items: center;
+padding: 10px 40px 10px 20px;
+}
+#gender{
+  width: 340px;
+height: 50px;
+}
+#activity{
+  width: 97%;
+  height: 50px;
+  padding: 12px
+}
+/* calculator section ends here */
+/* team container start here */
+.team-container{
+  text-align: center;
+  margin-top: 50px;  
+}
+.team-container p{
+margin-top: 10px;
+color: rgba(255, 255, 255, 0.5);
+} 
+.team-img{
+  width: 60%;
+  height: 610px;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: repeat(3,2fr);
+  background-color: rgba(255, 255, 255, 0.1);
+  padding-right: 20px;
+  border-radius: 10px;
+}
+.img img{
+  height: 270px;
+  width: 320px;
+  margin:10px;
+  border-radius: 20px; 
+  padding: 10px 10px;
+}
+.trainer-name{
+  margin-top: -100px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700px;
+  padding-left: 50px;
+}
+.trainer{
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 50px;
+}
+/* team img ends here */  
+/* footer start here */
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+}
+.orenge-color-2{
+  color: rgb(230, 83, 60);    
+  font-size: 4rem;
+  font-weight: 800px; 
+  font-style: italic; 
+  margin-top: 50px;
+}
+.footer{
+  background-color: rgba(255, 255, 255, 0.126);
+  border: 1px solid aqua;
+  margin: 100px 0;
+}
+.line{
+  color:rgb(255, 255, 255,0.1);
+  margin: 20px;
+  width: 70%;
+  margin: 50px auto;
+  text-align: center;
+}
+.line h5{
+  margin-top: 40px;
+}
 /* shared style */
   .shared-p{
    color: rgba(255, 255, 255, 0.5);
-   margin: 30px 0;
+   width: 350px;
+   margin:15px 0px 15px 4px;
   } 
+  .shared-h3{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900px;
+  }
+  .shared-h5{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin:20px ;
+    }
+  .shared-span{
+  font-size: 0.8rem;
+ font-weight: 400;
+color: rgba(239, 237, 232, 0.65);
+  }
  .btn-primary{
  border-radius: 46px;
  background: rgb(230, 83, 60); 
@@ -137,9 +319,11 @@ height: 50px;
  color:white;   
  margin-top: 30px;                      
   }
-
   /* responsive for small device */
-  @media screen and (max-width:576px){
+  @media screen and (max-width:440px){
+    body{
+      margin-left: 0 auto;
+    }
     #bars{
       display: block;
       margin-top: 20px;
@@ -151,11 +335,18 @@ height: 50px;
      justify-content: space-between; 
      padding: 20px;                     
     }                  
+    .banner,
+    .button,
+    .how-to-change,
+    .run-extra,
+    .calculator-table
+    {
+      display: flex;
+      flex-direction: column;                      
+    } 
     .banner{
-   display: flex;
-   flex-direction: column;
-     padding: 10px 10px;                         
-    }  
+      padding: 10px 10px;   
+    } 
     .banner-text{
       width: 70%;  
       margin-top: 30px;                      
@@ -164,9 +355,9 @@ height: 50px;
     font-size:2rem ;
     font-weight: 800;                       
   }
-  .button{
-       display: flex;
-       flex-direction: row;      
+  .button{ 
+      display: flex;
+    flex-direction: row;    
        align-items: center;         
   }
   .button-2,.btn-primary{
@@ -182,15 +373,100 @@ height: 50px;
    height: 500px;                          
   }
  .vedio-350{
-   width: 130px;   
-   padding: 5px;
+ width: 130px;   
+ padding: 5px;
  margin-top: 230px;
  margin-left: -0px;                        
+ }
+ .vedio-500{
+ width: 130px;   
+ padding: 5px;   
+ height: 60px;        
+ padding-top: 0px;  
+ margin-top: 80px;  
+ margin-left: 160px;  
+ }
+ #orenge-circle{
+  font-size: 1rem;
+   color: rgba(230, 83, 60, 0.803); 
  }
  .tutorial{
   font-size: 1rem;
  font-weight: 700;
  color: pink;
  }
+ .vedio{
+  font-size: 1.8rem;
+  font-weight: 800;
  }
-  
+ /* habbit container */
+ .habits-container{
+  margin: 10px auto;
+ }
+ .shared-h3{
+  font-size: 2rem;
+ }
+ .shared-p{
+  width: 300px;
+ }
+ .how-to-change{
+  margin: 10px auto;
+ }
+ /* run extra */
+ .run-extra button{
+   height: 40px;
+   width: 300px;
+   margin: 20px auto;
+ }
+ .run-img img{
+  width: 300px;
+ } 
+ /* bmi calculator */
+ .calculator-container{
+  padding:10px 10px;
+}
+.calculator-table{
+height: 800px;
+}
+.bmi-heading{
+  font-size: 1rem;
+  font-weight: 700px;
+  margin: 30px 0px -20px 0px;
+}
+.bmi-chart{
+  margin-left: 10px;
+}
+.responsive{
+  margin: 20px 0px 20px 10px;
+}
+input[type=text],select{
+  width: 110px;
+  height: 15px;
+}
+#gender{
+  width: 170px;
+  height: 38px; 
+}
+#activity{
+  width: 95%;
+}
+.your-bmi button{
+color: aqua;
+margin-left: 10px;
+width: 230px;
+margin-top: 15px;
+}
+.team-img{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  height: 1400px;
+  margin-top: 20px;
+  gap: 0px;
+}
+.img img{
+  height: 200px;
+  width: 300px;
+  margin-left: 25px;
+}
+}
