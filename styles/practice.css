@@ -9,8 +9,8 @@ body{
  font-family: "Inter", sans-serif;
 width: 90%;
 margin: 5rem auto;
+background:black;  
 border: 2px solid red;
-background:mediumturquoise;  
 }
 *{
 margin: 0;
@@ -19,9 +19,9 @@ padding: 0;
 /* mavbar start here */
 .navbar{
 display: flex;    
-justify-content: space-around;
+justify-content: space-between;
 padding: 50px;   
- margin: 0 auto;                     
+ margin: 0 100px;                    
 }
 .nav-item-contentainer{
  display: flex;
@@ -34,7 +34,8 @@ padding: 50px;
  color: white;
  }
  #bars{
-     display: none;                           
+     display: none;  
+     color: white;                         
   }
  .orenge-color{
  color: rgb(230, 83, 60);    
@@ -44,7 +45,7 @@ padding: 50px;
  }
  .btn-vav{
     border-radius: 46px;
-   background: rgb(230, 60, 213); 
+   background: rgb(230, 83, 60); 
    width: 100px;
   height: 30px; 
  border:none;  
@@ -322,18 +323,21 @@ height: 50px;
   /* responsive for small device */
   @media screen and (max-width:440px){
     body{
-      margin-left: 0 auto;
+      margin: 0 auto;
     }
     #bars{
       display: block;
       margin-top: 20px;
+      margin-left: 200px;
     }  
+    .orenge-color{
+    margin-left: -105px;
+    }
     .nav-item-contentainer{
        display: none;                       
     }      
     .navbar{
-     justify-content: space-between; 
-     padding: 20px;                     
+    padding: 10px;        
     }                  
     .banner,
     .button,
@@ -393,7 +397,6 @@ height: 50px;
  .tutorial{
   font-size: 1rem;
  font-weight: 700;
- color: pink;
  }
  .vedio{
   font-size: 1.8rem;
@@ -451,7 +454,7 @@ input[type=text],select{
   width: 95%;
 }
 .your-bmi button{
-color: aqua;
+color:white;
 margin-left: 10px;
 width: 230px;
 margin-top: 15px;
@@ -468,5 +471,9 @@ margin-top: 15px;
   height: 200px;
   width: 300px;
   margin-left: 25px;
+}
+/* footer */
+.footer-container{
+  display: grid;
 }
 }
