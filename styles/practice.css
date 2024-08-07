@@ -7,7 +7,7 @@
                               
 body{
  font-family: "Inter", sans-serif;
-width: 90%;
+max-width: 90%;
 margin: 5rem auto;
 background:black;  
 border: 2px solid red;
@@ -126,7 +126,7 @@ position: absolute;
  }
  /* habits section start here */
 .habits-container{
-  width: 90%;
+  max-width:90%;
   margin:100px auto;
   text-align: center;
 }
@@ -165,6 +165,98 @@ justify-content: space-evenly;
 .run-img img{
   border-radius: 10px;
 }
+/* run extra ends here */
+/* yoga container start here */
+.yoga-container{
+  width: 70%;
+  height: 700px;
+  border-radius: 12px;
+  margin: 0 auto;
+  padding: 30px;
+  margin-bottom: 20px;
+  color: azure;
+  
+}
+.yoga-heading{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900px;
+}
+.yoga-text{
+  color: rgba(255, 255, 255, 0.5);
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.yoga-text-container{
+  background-color: rgba(128, 128, 128, 0.262);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.shared-h4{
+  font-size: 2rem;
+  font-weight: 600px;
+  color: wheat;
+  margin: 20px;
+}
+.yoga-text-container button{
+  color: black;
+  background-color: wheat;
+  margin-left: 15px;
+}
+ol li{
+  font-size: 1rem;
+  font-family: 600px;
+  margin: 20px;
+  margin-left: 60px;
+}
+.yoga-text-container{
+  display: flex;
+}
+.yoga-img img{
+  width: 250px;
+  height: 200px;
+  border-radius: 20% 0%;
+}
+.yoga-img{
+  display: flex;
+  flex-direction: column;
+}
+#img-1{
+margin-left: 280px;
+margin-top: 30px;
+}
+#img-2{
+margin-left: 400px;
+margin-top: -20px;
+}
+#img-3{
+  margin-left: 280px;
+  margin-top: -20px;
+}
+/* yoga end here */
+/* exercise start here */
+.exercise-container{
+  margin: 100px auto;
+  border: 1px solid antiquewhite;
+   width: 70%;
+  }
+  .img-container img{
+    width: 100%;
+    height: 300px;
+  }
+  .first-row,.second-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-top: 0px;
+  }
+  .first-row{
+    grid-template-columns: 0.50fr 1fr 0.70fr; 
+  }
+  .second-row{
+    grid-template-columns: 1fr 0.5fr 0.70fr; 
+  }
 /* bmi calculator text */
 .calculator-container{
   padding:60px 300px;
@@ -234,7 +326,7 @@ margin-top: 10px;
 color: rgba(255, 255, 255, 0.5);
 } 
 .team-img{
-  width: 60%;
+  width: 64%;
   height: 610px;
   margin: 0 auto;
   display:grid;
@@ -242,6 +334,7 @@ color: rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.1);
   padding-right: 20px;
   border-radius: 10px;
+  margin-top: 10px;
 }
 .img img{
   height: 270px;
@@ -343,7 +436,8 @@ height: 50px;
     .button,
     .how-to-change,
     .run-extra,
-    .calculator-table
+    .calculator-table,
+    .yoga-text-container
     {
       display: flex;
       flex-direction: column;                      
@@ -406,10 +500,10 @@ height: 50px;
  .habits-container{
   margin: 10px auto;
  }
- .shared-h3{
+ .shared-h3,.yoga-heading{
   font-size: 2rem;
  }
- .shared-p{
+ .shared-p,.yoga-text{
   width: 300px;
  }
  .how-to-change{
@@ -424,6 +518,34 @@ height: 50px;
  .run-img img{
   width: 300px;
  } 
+ /* yoga start here */
+ ol li{
+  font-size: 0.6rem;
+  margin-left: 30px;
+
+}
+#img-1,#img-3{
+  margin-left: 10px;
+}
+#img-2{
+  margin-left: 110px;
+  margin-top: -40px;
+}
+#img-3{
+  margin-top: -50px;
+}
+.yoga-img img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.shared-h4{
+  font-size: 1rem;
+  font-weight: 700px;
+}
+ /* yoga ends here */
+ /* exercise start here */
+ 
  /* bmi calculator */
  .calculator-container{
   padding:10px 10px;
@@ -475,5 +597,15 @@ margin-top: 15px;
 /* footer */
 .footer-container{
   display: grid;
+}
+.bmi-heading{
+  margin-bottom: 20px;
+}
+.shared-h5{
+  font-size: 1rem;
+  margin: 10px 0px;
+}
+.orenge-color-2{
+  font-size: 2rem;
 }
 }
