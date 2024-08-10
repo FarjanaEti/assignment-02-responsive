@@ -10,7 +10,6 @@ body{
 max-width: 90%;
 margin: 5rem auto;
 background:black;  
-border: 2px solid red;
 }
 *{
 margin: 0;
@@ -372,7 +371,7 @@ margin-top: 10px;
 color: rgba(255, 255, 255, 0.5);
 } 
 .team-img{
-  width: 64%;
+  max-width: 64%;
   height: 610px;
   margin: 0 auto;
   display:grid;
@@ -640,7 +639,7 @@ margin-top: 15px;
 }
 .img img{
   height: 200px;
-  width: 300px;
+  width: 200px;
   margin-left: 25px;
 }
 /* training start here */
