@@ -10,6 +10,7 @@ body{
 max-width: 90%;
 margin: 5rem auto;
 background:black;  
+border: 2px solid purple;
 }
 *{
 margin: 0;
@@ -141,6 +142,10 @@ margin: 25px auto;
 width: 90%;
 display: flex;
 }
+.habits{
+  width: 230px;
+  margin: 20px;
+}
 .habits img{
 border-radius: 50%;
 justify-content: space-evenly;
@@ -189,7 +194,6 @@ justify-content: space-evenly;
 }
 .yoga-text-container{
   background-color: rgba(128, 128, 128, 0.262);
-  margin-bottom: 20px;
   margin-top: 20px;
 }
 .shared-h4{
@@ -230,7 +234,7 @@ margin-left: 280px;
 margin-top: 30px;
 }
 #img-2{
-margin-left: 400px;
+margin-left: 380px;
 margin-top: -20px;
 }
 #img-3{
@@ -248,7 +252,7 @@ margin-top: -20px;
 /* yoga end here */
 /* exercise start here */
 .exercise-container{
-  margin: 100px auto;
+  margin: 200px auto;
    width: 70%;
   }
   .img-container img{
@@ -371,7 +375,7 @@ margin-top: 10px;
 color: rgba(255, 255, 255, 0.5);
 } 
 .team-img{
-  max-width: 64%;
+  max-width: 80%;
   height: 610px;
   margin: 0 auto;
   display:grid;
@@ -490,7 +494,8 @@ height: 50px;
     } 
     .banner-text{
       width: 70%;  
-      margin-top: 30px;                      
+      margin-top: 30px; 
+      margin-left: 15px;                     
     } 
     .banner-text h1{
     font-size:2rem ;
@@ -511,7 +516,8 @@ height: 50px;
   }
   /* banner card */
   .banner-img{
-   height: 500px;                          
+   height: 500px;  
+   margin-left: 40px;                        
   }
  .vedio-350{
  width: 130px;   
@@ -550,7 +556,10 @@ height: 50px;
   width: 300px;
  }
  .how-to-change{
-  margin: 10px auto;
+ margin: 10px auto;
+ }
+ .habits{
+  margin: 20px auto;
  }
  /* run extra */
  .run-extra button{
@@ -639,12 +648,12 @@ margin-top: 15px;
 }
 .img img{
   height: 200px;
-  width: 200px;
-  margin-left: 25px;
+  width: 280px;
 }
 /* training start here */
 .exercise-container{
   margin-top: 250px;
+ margin-bottom: 10px;
 }
 .img-container img{
   width: 100%;
