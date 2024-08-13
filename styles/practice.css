@@ -193,7 +193,7 @@ justify-content: space-evenly;
   margin-top: 10px;
 }
 .yoga-text-container{
-  background-color: rgba(128, 128, 128, 0.262);
+  background: linear-gradient(#5A5560,#46344E,#9B786F);
   margin-top: 20px;
 }
 .shared-h4{
@@ -204,12 +204,13 @@ justify-content: space-evenly;
 }
 .btn-yoga{
   color: black;
-  background-color: wheat;
+  background-color: #9B786A;
   margin-left: 15px;
   width: 200px;
   height: 50px; 
    border: none;
    border-radius: 46px;
+   box-shadow: 5px 5px 10px;
 }
 ol li{
   font-size: 1rem;
@@ -222,8 +223,9 @@ ol li{
 }
 .yoga-img img{
   width: 250px;
-  height: 200px;
+  height: 210px;
   border-radius: 20% 0%;
+  box-shadow: 10px 10px 50px black;
 }
 .yoga-img{
   display: flex;
@@ -245,6 +247,11 @@ margin-top: -20px;
   margin: 20px;
   font-size: 2rem;
   font-weight: 600px;
+}
+.vedio-title,.shared-h4{
+  background-image: linear-gradient(#9B786A,#9D8D8F);
+  background-clip: text;
+  color: transparent;
 }
 .yoga-vedio{
   margin: 20px;
@@ -489,6 +496,9 @@ height: 50px;
       display: flex;
       flex-direction: column;                      
     } 
+    .shared-h4{
+      width: 200px;
+    }
     .banner{
       padding: 10px 10px;   
     } 
@@ -577,7 +587,7 @@ height: 50px;
 }
 .vedio-title{
   margin: 10px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .yoga-vedio{
   margin: 10px;
@@ -600,6 +610,10 @@ height: 50px;
 .shared-h4{
   font-size: 1rem;
   font-weight: 700px;
+}
+.btn-yoga{
+  width: 100px;
+  height: 30px;
 }
  /* yoga ends here */
  /* bmi calculator */
